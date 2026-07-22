@@ -281,7 +281,7 @@ export default function RecentApplications() {
               justify-center
               gap-2
               rounded-xl
-              bg-gradient-to-r
+              bg-linear-to-r
               from-violet-600
               to-indigo-600
               py-3

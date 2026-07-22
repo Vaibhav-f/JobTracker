@@ -6,6 +6,8 @@ import RecentApplications from '../../RecentApplications'
 import ApplicationAnalytics from '../../Data/ApplicationAnalytics'
 import UpcomingInterviews from '../../Data/UpcomingInterviews'
 import ActivityTimeline from '../../Data/ActivityTimeline'
+import Stats from '../../Components/Starts/Starts'
+import JobForm from '../../Components/JobForm/JobForm'
 
 const Home = () => {
   return (
@@ -17,6 +19,7 @@ const Home = () => {
         <ApplicationAnalytics/>
         <UpcomingInterviews/>
         <ActivityTimeline/>
+        <JobForm/>
       
     </div>
   )
